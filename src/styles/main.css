@@ -1,0 +1,27 @@
+:root {
+    --cor-primaria:rgb(255, 255, 255);
+    --tamanho-fonte: 16px;
+    --cor-letras: black;
+    --tamanho-fotos-largura: 10vw;
+    --tamanho-fotos-altura: 10vw;
+}
+
+body {
+    background-color: var(--cor-primaria);
+    font-size: var(--tamanho-fonte);
+    color: var(--cor-letras);
+}
+
+h1, h4 {
+    text-align: center;
+}
+
+h5, p {
+    display: inline;
+}
+
+img {
+    display: block;
+    width: var(--tamanho-fotos-largura);
+    height: var(--tamanho-fotos-altura);
+}
